@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<title>2D Application Engine - Java</title>
+	
+	<meta name="description" content="Poznaj mój zupełnie darmowy silnik, który ułatwi Ci tworzenie dwuwymiarowej gry lub aplikacji w Javie, która ze względu na zalety języka Java będzie dostępna na wielu platformach! 2D Golden Application Engine ma łatwą do zrozumienia składnię oraz przygotowałem na tej stronie specjalnie dla Ciebie poradniki oraz dokumentację. Zapraszam Cię do zapoznania się z witryną!" />
+	<meta name="keywords" content="całkowicie darmowy, całkowicie, darmowy, silnik, 2D, dwuwymiarowy, dwuwymiarowa, gra, golden, application, aplikacja, game, Java, dla Ciebie, dla, Ciebie, poradnik, poradniki, dokumentacja, łatwa składnia, łatwy, łatwa, składnia, mój, własny, dostępna, na, wielu, platformach, platformy" />
+	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+	
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+	
+</head>
+<body>
+
+	<div id="container">
+		
+		<header>
+			<div id="logo">
+				<a href="index.html">
+					<img style="float:left;" src="img/java.png" width=100 height=100/>
+					<span style="display:block;float:left;margin-top:20px;">Java &nbsp;2D &nbsp;Application &nbsp;<span style="color:orange;">Engine</span></span>
+				</a>
+				<div style="clear:both;"></div>
+			</div>
+		</header>
+		
+		<nav>
+			<div id="nav">
+				<ol>
+					<li><a href="index.html">Strona główna</a></li>
+					<li><a href="pobierzapi.html">Pobierz</a>
+						<ul>
+							<li><a href="pobierzapi.html">API</a></li>
+							<li><a href="pobierzkod.html">Kod źródłowy</a></li>
+						</ul>
+					</li>
+					<li><a href="wersje.html">Dziennik zmian</a>
+						<ul>
+							<li><a href="aktualnosci.html">Aktualności</a></li>
+							<li><a href="wersje.html">Wersje</a></li>
+						</ul>
+					</li>
+					<li><a href="kurs.html">Pomoc</a>
+						<ul>
+							<li><a href="jakpobrac.html">Jak pobrać API?</a></li>
+							<li><a href="jakdodac.html">Jak dodać do proj...</a></li>
+							<li><a href="kurs.html">Pełny kurs</a></li>
+						</ul>
+					</li>
+					<li><a href="przykladowegry.html">Przykładowe gry</a></li>
+					<li><a href="kontakt.html">Kontakt</a></li>
+				</ol>
+				<div style="clear:both;"></div>
+			</div>
+		</nav>
+		
+		<aside>
+			<div id="sidebar">
+				Pobierz Javę <a href="https://www.java.com/pl/download/" target="_blank">tutaj</a>!
+				<div style="height:20px;"></div>
+				Pobierz Eclipse <a href="https://www.eclipse.org/" target="_blank">tutaj</a>!
+				
+				<div class="blankspace"></div>
+				
+				<span style="font-weight:700;">Social media:</span>
+				
+				<div class="social">
+					<a style="color:#000;" href="https://www.youtube.com/channel/UCzn6vAfspIcagLax1fck_jw" target="_blank"><i class="icon-youtube-play"></i></a>
+				</div>
+				
+				<div class="social">
+					<a style="color:#000;" href="https://www.facebook.com/konradn24" target="_blank"><i class="icon-facebook"></i></a>
+				</div>
+				
+				<div class="blankspace"></div>
+				
+				<a href="https://discordapp.com/invite/ZhV7Hqk" target="_blank">Dołącz</a> do naszego serwera Discord!
+			</div>
+		</aside>
+		
+		<main>
+			<article>
+				<div id="content">
+					<section>
+						<p><span style="font-weight:700;text-decoration:underline;color:#aa0000;">UWAGA:</span><br/>
+						jeżeli po zaktualizowaniu silnika i podpięciu nowej wersji do projektu, wystąpiły błędy w kodzie związanym z tym API, proszę o zajrzenie do zakładki <a href="aktualnosci.html">Aktualności</a> w Dzienniku zmian, aby zobaczyć co zostało zmienione i jak naprawić kod.</p>
+					</section>
+				
+					<section> <!-- FIRST SECTION -->
+						<h1>Czym jest 2D Application Engine?</h1>
+						<div class="contentblankspace"></div>
+						<p>2D Application Engine - jak sama nazwa wskazuje - jest silnikiem służącym do tworzenia aplikacji i gier. Został napisany w języku Java, stąd też używamy go w tym języku. Jego przewodnim motywem jest prosta składnia oraz możliwość szybkiego stworzenia fundamentów zaawansowanego programu. Wystarczy parę linii kodu i już mamy stworzone okno naszej gry (aplikacji), to naprawdę jest tak proste! Można też bez problemu zmieniać parametry m.in. okna, tekstur, obiektów, przycisków, checkboxów i wielu innych rzeczy, a więc mamy nieskończenie wiele możliwości stylizacji naszego okna. Mój silnik absolutnie w niczym Cię nie ogranicza. Również nie musisz korzystać z rozwiązań zastosowanych w silniku - jeżeli nie chcesz używać moich klas służących do wykrywania myszy lub klawiatury (kliknięcia, przesunięcia, scroll, wpisywanie tekstu), nie musisz z nich korzystać! Możesz zrobić własne, tak jakby w twoim projekcie w ogóle nie było mego API.</p>
+					</section>
+					
+					<section> <!-- SECOND SECTION -->
+						<h1>Dlaczego mój silnik?&nbsp; Czyli wady i zalety</h1>
+						<div class="contentblankspace"></div>
+						<p>Nie chcę niczego przed Tobą ukrywać - dlatego przedstawiam Ci jawny spis zalet i wad stosowania mojego silnika!</p>
+						
+						<p><span style="color:#00661c;font-weight:700;">Zalety:</span>
+							<ul>
+								<li>Prosta i łatwa do zastosowania składnia</li>
+								<li>Mniej kodu, a więcej efektów - oszczędność czasu</li>
+								<li>Brak ograniczeń w stylizacji wyglądu</li>
+								<li>Po pobraniu, w folderze "res" znajdziesz obrazy, które możesz swobodnie stosować</li>
+								<li>Możesz uruchomić projekt używając klasy "MainGameLoop", która pokazuje część możliwości silnika (jeżeli chcesz więcej przykładów zajrzyj do zakładki "Przykładowe gry")</li>
+								<li>Przygotowałem na stronie wiele poradników, objaśniających po kolei co i jak</li>
+								<li>Możliwość pobrania kodu silnika</li>
+								<li>Służy do tworzenia zarówno gier, jak i aplikacji</li>
+							</ul>
+						</p>
+						
+						<p><span style="color:#bf0000;font-weight:700;">Wady:</span>
+							<ul>
+								<li>Nie obsługuje trójwymiarowości</li>
+								<li>Przez to, że jest to dość nowe API, mamy małą społeczność</li>
+							</ul>
+						</p>
+					</section>
+					
+					<section> <!-- THIRD SECTION -->
+						<h1>Jakiego IDE najlepiej użyć?</h1>
+						<div class="contentblankspace"></div>
+						<p>Osobiście i z własnego doświadczenia polecam Ci dość popularne środowisko Eclipse, które możesz znaleźć i pobrać za darmo <a href="https://www.eclipse.org/" target="_blank">tutaj</a>. Sam go używam, dlatego 2D Golden Application Engine jest zrobione pod Eclipsa. Poradniki przedstawiają podpinanie API do projektu w Eclipsie. Jak chodzi o samego Ecplisa - ma on bardzo przydatne funkcje, które zdecydowanie ułatwiają kodowanie, od razu staje się one przyjemniejsze! Mam na myśli np. podświetlanie składni, proste drzewko plików projektów, możliwość edytowania (zamykania, otwierania, podpinania zewnętrznych API w postaci plików .jar) projektu oraz bardzo łatwe eksportowanie projektu do pliku .jar, który potem można zmienić za pomocą innego programu (przykładowo Launch4j) na .exe i mieć gotowy program!</p>
+					</section>
+				</div>
+			</article>
+		</main>
+		
+		<div style="clear:both;"></div>
+		
+		<footer>
+			<div id="footer">
+				Java 2D Application Engine - koduj szybko i prosto! 2019 &copy; Wszelkie prawa zastrzeżone
+			</div>
+		</footer>
+	
+	</div>
+	
+	<script src="jquery-1.11.3.min.js"></script>
+	
+	<script>
+
+		$(document).ready(function() {	
+		var NavY = $('#nav').offset().top;
+		 
+		var stickyNav = function(){
+		var ScrollY = $(window).scrollTop();
+			  
+		if (ScrollY > NavY) { 
+			$('#nav').addClass('sticky');
+		} else {
+			$('#nav').removeClass('sticky'); 
+		}
+		};
+		 
+		stickyNav();
+		 
+		$(window).scroll(function() {
+			stickyNav();
+		});
+		});
+	
+	</script>
+
+</body>
+</html>
